@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F2F5F9;
+    font-family: "lato", "sans-serif";
+    height: 100vh;
+    color: #4A5567;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 360px;
+    background: #FFFFFF;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+
+}
+
+.photo-hero {
+    width: 100%;
+    object-fit: cover;
+}
+
+.wave {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    fill: #FFFFFF;
+}
+
+.body {
+    margin: 10px 30px 20px;
+}
+
+.body-title {
+    font-weight: 600;
+    color: #111729;
+    margin-bottom: 1.3rem;
+}
+
+.separate {
+    overflow: hidden;
+    border: 0.1px solid #e5e9e7;
+}
+
+.footer {
+    display: flex;
+    margin-block: 10px;
+    margin-inline: 20px;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar {
+    border-radius: 50px;
+}
+
+.name {
+    font-weight: 700;
+    color: #111729;
+}
+
+.description {
+    font-size: 16px;
+}
+
+.proffession {
+    font-size: 15px;
+}
+
+@media (min-width: 400px) {
+    .container {
+        width: 360px;
+        background: #FFFFFF;
+        overflow: hidden;
+        border-radius: 1rem;
+    }
+
+}
