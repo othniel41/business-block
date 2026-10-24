@@ -37,7 +37,8 @@ body {
 
 .wave {
     position: absolute;
-    bottom: -4px;
+    bottom: 0;
+    right: 0;
     left: 0;
     fill: #FFFFFF;
 }
